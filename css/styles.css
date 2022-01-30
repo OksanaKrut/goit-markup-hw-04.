@@ -186,28 +186,17 @@ a {
 /*-------------------HERO-------------------*/
 .hero {
     max-width: 1600px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--background-color);
     padding-top: 200px;
     padding-bottom: 200px;
-    text-align: center;
-    /* background-image: url(../images/Img-bg.jpg);
-    background-repeat: no-repeat;
+    justify-content: center;
     background-position: center;
-    background-size: cover; */
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), 
-    url(../images/Img-bg.jpg));
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/Img-hero.jpg); 
 }
-
-/* .overlay {
-    max-width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-    background: rgba(47, 48, 58, 0.4);
-    background-image: url(../images/Img-bg.jpg);
-} */
 
 .hero-container {
     align-items: center;
