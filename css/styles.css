@@ -54,7 +54,7 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 .section {
@@ -195,7 +195,8 @@ a {
     justify-content: center;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/Img-hero.jpg); 
+    background-size: cover;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-hero.jpg); 
 }
 
 .hero-container {
@@ -471,48 +472,6 @@ a {
     background-position: center;
 }
 
-/* .clients-item:nth-child(1)::after {
-    background-image: url(../images/group-1.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.clients-item:nth-child(2)::after {
-    background-image: url(../images/group-2.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.clients-item:nth-child(3)::after {
-    background-image: url(../images/group-3.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.clients-item:nth-child(4)::after {
-    background-image: url(../images/group-4.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.clients-item:nth-child(5)::after {
-    background-image: url(../images/group-5.svg); 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.clients-item:nth-child(6)::after {
-    background-image: url(../images/group-6.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
-
 .clients-socials-link.clients-socials-link {
     display: flex;
     justify-content: center;
@@ -535,11 +494,6 @@ a {
 }
 
 /*-------------------FILTERS-------------------*/
-
-/* .filters {
-    padding-bottom: 94px;
-    padding-top: 94px;
-} */
 
 .filters-list {
     justify-content: center;
@@ -597,6 +551,15 @@ a {
     /* width: calc(100% / 9 - 30px);
     margin-left: 30px;
     margin-bottom: 30px; */
+}
+
+.projects-item-link:hover,
+.project-itewm-link:focus {
+    display: block;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
 }
 
 .projects-img {
